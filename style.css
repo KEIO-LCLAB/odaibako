@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+  
+body {
+    height: 100%;
+    margin: 0;
+}
+
+table {
+    width: 98%;
+    height: 100%;
+}
+
+td.text-input {
+    width: 30%;
+}
+
+td.display {
+    width: 70%;
+    height: 80vh;
+}
+
+textarea {
+    resize: none;
+    width: 98%;
+    height: 90vh;
+}
+
+input.dice-button {
+    padding:3px;
+    font-size:25px;
+}

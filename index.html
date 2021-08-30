@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>お題箱</title>
+</head>
+
+<body>
+    <table align="center">
+        <tr>
+            <td class=text-input align="center" rowspan="2">
+                <font size="4">お題一覧（改行区切り）</font><br>
+                <textarea id="topics" cols="25" rows="30"></textarea>
+            </td>
+            <td class=display align="center">
+                <font size="15">
+                    <div id="topic"></div>
+                </font>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <input type="button" class=dice-button value="お題を決める" onclick="dice()">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
