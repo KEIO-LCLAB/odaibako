@@ -7,8 +7,8 @@ function getRandomInt(max) {
     // ランダムに生成した整数
     const num = Math.floor(Math.random() * max);
 
-    if (used_topics.length == max) {
-        // すでに選んだお題の数が最大値に等しければused_topicsをリセットする
+    if (used_topics.length >= max) {
+        // すでに選んだお題の数が最大値より多きければused_topicsをリセットする
         used_topics = [];
         return getRandomInt(max);
     } else if (used_topics.includes(num)) {
